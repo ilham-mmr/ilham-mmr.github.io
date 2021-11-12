@@ -10,21 +10,25 @@ function Projects() {
 
 
     return (
-        <Flex direction={isNotSmallerScreen ? "row" : "column"} >
+        <>
 
-            <Box alignSelf="center" px="32" py="16">
+            <Heading size="xl" mb='5' textAlign='center' bgGradient="linear(to-l, #a8dadc, #457b9d)" bgClip='text'>
+                My Projects
+            </Heading>
+            <Flex direction={isNotSmallerScreen ? 'row' : 'column'} p={isNotSmallerScreen ? '4' : '0'} marginBottom='3' justifyContent='center'>
+                {/* <Box alignSelf="center" px="32" py="16"> */}
 
-                <Heading size="lg" mb='5' textAlign='center'>
-                    My Projects
-                </Heading>
+
                 <Flex direction={isNotSmallerScreen ? "row" : "column"} mt={8} >
+
                     <Project icon={SiFlutter} title='HayuTutor - Tutoring Services Platform' link='https://github.com/ilham-mmr/HayuTutor' />
                     <Project icon={SiReact} title='Todo List App' link='https://github.com/ilham-mmr/react-simple-todo-app' />
                     <Project icon={SiNodedotjs} title='YelpCamp Clone' link='https://github.com/ilham-mmr/YelpCamp' />
                     <Project icon={SiLaravel} title='CRUD KP Laravel' link='https://github.com/ilham-mmr/CRUD-KP-Laravel' />
                 </Flex>
-            </Box>
-        </Flex>
+                {/* </Box> */}
+            </Flex>
+        </>
     )
 }
 
