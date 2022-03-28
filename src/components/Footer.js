@@ -1,9 +1,9 @@
 import React from 'react'
 import { BsFillHeartFill } from 'react-icons/bs';
 import Icon from '@chakra-ui/icon'
-import { ButtonGroup, ButtonGroupProps, IconButton } from '@chakra-ui/react'
-import { FaGithub, FaLinkedin, FaTwitter, FaInstagram } from 'react-icons/fa'
-import { Box, Divider, Stack, Text, VStack } from '@chakra-ui/layout'
+import { ButtonGroup, IconButton } from '@chakra-ui/react'
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import { Box, Stack, Text } from '@chakra-ui/layout'
 
 function Footer() {
     return (
