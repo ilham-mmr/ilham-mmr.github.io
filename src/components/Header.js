@@ -21,15 +21,13 @@ function Header() {
                     </Text>
                     <Text color="gray.400" fontSize="2xl" >
                         I am very passionate about technology especially mobile and web development.
-                    </Text>
-                    <Text color="gray.400" fontSize="2xl" mb='3'>
-                        I also like solving data structures and algorithms questions.
+                    I also like to challenge myself to practice on data structures and algorithms to sharpen more my computational skills.
                     </Text>
                     <Text color="gray.400" fontSize="2xl" mb='3'>
                     </Text>
                     <Tooltip label="Check out my resume here!" aria-label="A tooltip">
                         <Button colorScheme="blue" size="lg" onClick={() =>
-                            window.open("")
+                            window.open("https://drive.google.com/file/d/1TMbxJy_etcDKN7K3pEmSiRyAIFr_D9-i/view?usp=sharing")
                         } >
                             My Resume
                         </Button>

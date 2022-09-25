@@ -16,7 +16,7 @@ function Footer() {
                 </Text>
                 <Stack direction="row" spacing="4" align="center" justify="space-between">
                     <ButtonGroup variant="ghost" color="gray.600" >
-                        <IconButton as="a" href="https://www.linkedin.com/in/ilham-m-maulana-r-468b58150/" aria-label="LinkedIn" icon={<FaLinkedin fontSize="20px" />} />
+                        <IconButton as="a" href="https://www.linkedin.com/in/ilham-mmr/♦" aria-label="LinkedIn" icon={<FaLinkedin fontSize="20px" />} />
                         <IconButton as="a" href="https://github.com/ilham-mmr" aria-label="GitHub" icon={<FaGithub fontSize="20px" />} />
                     </ButtonGroup>
                 </Stack>
