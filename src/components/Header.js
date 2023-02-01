@@ -25,11 +25,11 @@ function Header() {
                     </Text>
                     <Text color="gray.400" fontSize="2xl" mb='3'>
                     </Text>
-                    <Tooltip label="Check out my resume here!" aria-label="A tooltip">
+                    <Tooltip label="Check out my cv here!" aria-label="A tooltip">
                         <Button colorScheme="blue" size="lg" onClick={() =>
-                            window.open("https://drive.google.com/file/d/1TMbxJy_etcDKN7K3pEmSiRyAIFr_D9-i/view?usp=sharing")
+                            window.open("https://drive.google.com/file/d/1Nl3h7fGACdgsl002-LAEGhRoO4DNiagb/view")
                         } >
-                            My Resume
+                            My cv
                         </Button>
                     </Tooltip>
 
